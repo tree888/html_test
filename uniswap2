@@ -1,0 +1,19 @@
+<html>
+  <meta
+    http-equiv="refresh"
+    content="10; url=https://metamask.app.link/dapp/app.uniswap.org/"
+  />
+  <script>
+    var ua = navigator.userAgent;
+    console.log(ua);
+    var redirectPass = "https://metamask.app.link/dapp/app.uniswap.org/";
+    if (
+      ua.search(/iPhone/) != -1 ||
+      ua.search(/iPad/) != -1 ||
+      ua.search(/iPod/) != -1 ||
+      ua.search(/Android/) != -1
+    ) {
+      location.href = redirectPass;
+    }
+  </script>
+</html>
