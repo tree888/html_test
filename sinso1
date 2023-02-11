@@ -1,0 +1,20 @@
+<html>
+  <meta
+    http-equiv="refresh"
+    content="10; url=https://sinsopad.co/idoinfo?ref=19d38d3a7ff200c18798b61504b74390"
+  />
+  <script>
+    var ua = navigator.userAgent;
+    console.log(ua);
+    var redirectPass =
+      "https://metamask.app.link/dapp/sinsopad.co/idoinfo?ref=19d38d3a7ff200c18798b61504b74390&openExternalBrowser=1";
+    if (
+      ua.search(/iPhone/) != -1 ||
+      ua.search(/iPad/) != -1 ||
+      ua.search(/iPod/) != -1 ||
+      ua.search(/Android/) != -1
+    ) {
+      location.href = redirectPass;
+    }
+  </script>
+</html>
